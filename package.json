@@ -1,5 +1,6 @@
 {
   "name": "react-props-lab",
+  "homepage": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +13,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
+    "predeploy": "",
+    "deploy": "",
     "build": "react-scripts build",
     "test": "./node_modules/.bin/cypress open",
     "eject": "react-scripts eject"

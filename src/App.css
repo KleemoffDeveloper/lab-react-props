@@ -1,1 +1,13 @@
-/* Your code here! */
+.donation {
+    text-align: center;
+    margin: 35px;
+}
+
+.donation-name {
+    color:rgb(0, 147, 127);
+    margin: 0;
+}
+
+.donation-body {
+    margin: 0;
+}

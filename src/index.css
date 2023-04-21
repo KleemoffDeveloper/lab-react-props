@@ -89,15 +89,19 @@ header p {
 }
 
 /* Donation Form */
-.donation input[type="text"],
-.donation input[type="number"] {
+.donation-form {
+  text-align: left;
+}
+
+.donation-form input[type="text"],
+.donation-form input[type="number"] {
   display: block;
   margin: 10px 0;
   padding: 5px;
 }
 
-.donation input[type="submit"],
-.donation button {
+.donation-form input[type="submit"],
+.donation-form button {
   background: var(--primary);
   font-weight: bold;
   padding: 10px;
