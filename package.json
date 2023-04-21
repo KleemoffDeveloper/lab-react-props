@@ -1,6 +1,6 @@
 {
   "name": "react-props-lab",
-  "homepage": "",
+  "homepage": "http://kleemoffdeveloper.github.io/lab-react-props",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "",
-    "deploy": "",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "./node_modules/.bin/cypress open",
     "eject": "react-scripts eject"
