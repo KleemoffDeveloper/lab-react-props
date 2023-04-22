@@ -13,8 +13,8 @@ let total = () => {
 export default function Progress() {
   return <section className="progress">
     <h2>
-      Raised <span className="secondary">${total().toLocaleString('us')}</span> of
-      <span className="secondary"> ${targetAmount.toLocaleString('us')}</span>
+      Raised <span className="secondary">${total().toLocaleString()}</span> of
+      <span className="secondary"> ${targetAmount.toLocaleString()}</span>
     </h2>
   </section>;
 }

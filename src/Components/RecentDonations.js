@@ -6,7 +6,7 @@ export function Donation(props) {
    * donation.message
    */
   return <div className="donation">
-    <h3 className="donation-name">{name} donated ${amount.toLocaleString('us')}</h3>
+    <h3 className="donation-name">{name} donated ${amount}</h3>
     <p className="donation-body">{message}</p>
   </div>
 }
