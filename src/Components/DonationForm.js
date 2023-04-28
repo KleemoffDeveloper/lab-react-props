@@ -46,7 +46,7 @@ export default function DonationForm() {
           // Number.prototypes.toLocaleString()
           listDonation.push(<Donation
             name={data.name}
-            amount={Number(data.amount).toLocaleString()}
+            amount={Number(data.amount)}
             message={data.message}
           />)
           name.value = null

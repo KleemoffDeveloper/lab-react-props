@@ -1,6 +1,6 @@
 import { donations } from "./RecentDonations";
 
-const targetAmount = 1000000;
+const targetAmount = 1000;
 
 let total = () => {
   let amount = 0
@@ -13,8 +13,8 @@ let total = () => {
 export default function Progress() {
   return <section className="progress">
     <h2>
-      Raised <span className="secondary">${total().toLocaleString()}</span> of
-      <span className="secondary"> ${targetAmount.toLocaleString()}</span>
+      Raised <span className="secondary">${total()}</span> of
+      <span className="secondary"> ${targetAmount}</span>
     </h2>
   </section>;
 }
